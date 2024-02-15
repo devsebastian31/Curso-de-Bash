@@ -5,6 +5,8 @@
 # Variables
 nombre="Usuario"
 echo "Hola, $nombre"  # Imprime: Hola, Usuario
+read -p "Nombre" -s nombre2
+echo "Hola $nombre2"
 
 # Estructuras de control
 if [ $nombre == "Usuario" ]; then
